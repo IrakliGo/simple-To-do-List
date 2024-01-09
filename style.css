@@ -1,3 +1,4 @@
+/*making everything center*/
 body {
     display: flex;
     flex-direction: column;
@@ -9,10 +10,14 @@ body {
 
 }
 
+/*making input and button center*/
+
 .container {
     display: flex;
 }
 
+
+/*button styling*/
 .container button {
     width: 50px;
     height: 30px;
@@ -23,7 +28,34 @@ body {
     cursor: pointer;
 }
 
+/*styling input */
+
 .container input {
 margin: 5px;
 padding: 7px;
+}
+
+
+/*styling lists that we are entering */
+ul {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+
+}
+
+
+/*styling delete buttons */
+ul button {
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
 }
