@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+.container {
+    display: flex;
+}
+
+.container button {
+    width: 50px;
+    height: 30px;
+    margin: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container input {
+margin: 5px;
+padding: 7px;
+}
